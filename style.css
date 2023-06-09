@@ -1,69 +1,71 @@
 h1{
 	color:#C00000;
-	margin-top:50px;
-	margin-right:5px;
-	margin-bottom:20px;
-	margin-left:5px;
-	font-size: 18.0pt;
+	margin-top:1rem;
+	margin-right:1rem;
+	margin-bottom:1rem;
+	margin-left:1rem;
+	font-size:2rem;
 	font-family:"Gill Sans Nova",sans-serif;
 	}
 
 p{
 	color: #385623;				
-	margin-top:20px;
-	margin-right:20px;
-	margin-bottom:20px;
-	margin-left:40px;
-	font-size: 16.0pt;
+	margin-top:1rem;
+	margin-right:1rem;
+	margin-bottom:1rem;
+	margin-left:1rem;
+	font-size: 14pt;
+	line-height:130%;
 	font-family:"Calibri",sans-serif;
 	}
 	
 .logo1{
 	color: #000000;				
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	margin-left:0px;
+	margin-top:0rem;
+	margin-right:0rem;
+	margin-bottom:0rem;
+	margin-left:0rem;
 	font-size: 80.0pt;
 	font-family:"Gill Sans Nova",sans-serif;
-	white-space: nowrap;
-	overflow: hidden;
 	}
 	
 .logo2{
 	color: #000000;				
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	margin-left:0px;
+	margin-top:0rem;
+	margin-right:0rem;
+	margin-bottom:0rem;
+	margin-left:0rem;
 	font-size: 48.0pt;
 	font-family:"Gill Sans Nova",sans-serif;
 	}
 	
 .logo3{
 	color: #FF0000;				
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	margin-left:0px;
+	margin-top:0rem;
+	margin-right:0rem;
+	margin-bottom:0rem;
+	margin-left:0rem;
 	font-size: 80.0pt;
 	font-family:"Gill Sans Nova",sans-serif;
 	}	
 
 .logo_link{
 	color: #FF0000;				
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom:0px;
-	margin-left:0px;
+	margin-top:0rem;
+	margin-right:0rem;
+	margin-bottom:0rem;
+	margin-left:0rem;
 	font-size: 20.0pt;
 	font-family:"Gill Sans Nova",sans-serif;
 	}
 
-.recuo {
-	color: #385623;			
-	margin-left:80px;	
-	font-size: 16.0pt;
+#recuo{
+	color: #385623;				
+	margin-top:1rem;
+	margin-right:1rem;
+	margin-bottom:1rem;
+	margin-left:3rem;
+	font-size: 14pt;
 	font-family:"Calibri",sans-serif;
 	}
 			
