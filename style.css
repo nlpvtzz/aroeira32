@@ -1,6 +1,6 @@
 h1{
 	color:#C00000;
-	margin-top:10pt;
+	margin-top:15pt;
 	margin-right:5pt;
 	margin-bottom:10pt;
 	margin-left:5pt;
@@ -27,6 +27,16 @@ li{
 	margin-left:20pt;
 	font-size: 12pt;
 	line-height:110%;
+	font-family:"Calibri",sans-serif;
+	}
+	
+#recuo{
+	color: #385623;				
+	margin-top:5pt;
+	margin-right:5pt;
+	margin-bottom:10pt;
+	margin-left:10pt;
+	font-size: 12pt;
 	font-family:"Calibri",sans-serif;
 	}
 	
