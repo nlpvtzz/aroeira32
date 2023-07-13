@@ -1,9 +1,9 @@
 h1{
 	color:#C00000;
 	margin-top:10pt;
-	margin-right:1pt;
-	margin-bottom:1pt;
-	margin-left:1pt;
+	margin-right:5pt;
+	margin-bottom:10pt;
+	margin-left:5pt;
 	font-size:14pt;
 	font-family:"Gill Sans Nova",sans-serif;
 	}
@@ -12,7 +12,7 @@ p{
 	color: #385623;				
 	margin-top:5pt;
 	margin-right:5pt;
-	margin-bottom:5pt;
+	margin-bottom:10pt;
 	margin-left:20pt;
 	font-size: 12pt;
 	line-height:120%;
@@ -23,10 +23,20 @@ li{
 	color: #385623;				
 	margin-top:5pt;
 	margin-right:5pt;
-	margin-bottom:5pt;
+	margin-bottom:10pt;
 	margin-left:0pt;
 	font-size: 12pt;
 	line-height:110%;
+	font-family:"Calibri",sans-serif;
+	}
+	
+#recuo{
+	color: #385623;				
+	margin-top:5pt;
+	margin-right:5pt;
+	margin-bottom:10pt;
+	margin-left:30pt;
+	font-size: 12pt;
 	font-family:"Calibri",sans-serif;
 	}
 	
@@ -68,15 +78,5 @@ li{
 	margin-left:0pt;
 	font-size: 20.0pt;
 	font-family:"Gill Sans Nova",sans-serif;
-	}
-
-#recuo{
-	color: #385623;				
-	margin-top:1pt;
-	margin-right:1pt;
-	margin-bottom:1pt;
-	margin-left:30pt;
-	font-size: 12pt;
-	font-family:"Calibri",sans-serif;
 	}
 			
