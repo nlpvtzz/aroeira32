@@ -1,23 +1,23 @@
-h1{
-	color:#C00000;
-	margin-top:15pt;
-	margin-right:5pt;
-	margin-bottom:10pt;
-	margin-left:5pt;
-	font-size:14pt;
-	font-family:"Gill Sans Nova",sans-serif;
-	}
+h1 {
+	color: #5B452B;
+	margin-top: 15pt;
+	margin-right: 5pt;
+	margin-bottom: 10pt;
+	margin-left: 5pt;
+	font-size: 14pt;
+	font-family: "Gill Sans Nova",sans-serif;
+}
 
-p{
-	color: #385623;				
-	margin-top:10pt;
-	margin-right:5pt;
-	margin-bottom:15pt;
-	margin-left:20pt;
+p {
+	color: #5B452B;
+	margin-top: 15pt;
+	margin-right: 5pt;
+	margin-bottom: 20pt;
+	margin-left: 20pt;
 	font-size: 12pt;
-	line-height:120%;
-	font-family:"Calibri",sans-serif;
-	}
+	line-height: 120%;
+	font-family: "Calibri",sans-serif;
+}
 	
 li{
 	color: #385623;				
