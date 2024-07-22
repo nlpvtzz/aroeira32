@@ -1,82 +1,57 @@
 h1 {
-	color: #5B452B;
-	margin-top: 15pt;
-	margin-right: 5pt;
-	margin-bottom: 10pt;
-	margin-left: 5pt;
-	font-size: 14pt;
-	font-family: "Gill Sans Nova",sans-serif;
+    color: #5B452B;
+    margin: 15pt 5pt 10pt 5pt;
+    font-size: 14pt;
+    font-family: "Gill Sans Nova", sans-serif;
 }
 
 p {
-	color: #5B452B;
-	margin-top: 15pt;
-	margin-right: 5pt;
-	margin-bottom: 20pt;
-	margin-left: 20pt;
-	font-size: 12pt;
-	line-height: 120%;
-	font-family: "Calibri",sans-serif;
+    color: #5B452B;
+    margin: 15pt 5pt 20pt 20pt;
+    font-size: 12pt;
+    line-height: 120%;
+    font-family: "Calibri", sans-serif;
 }
-	
-li{
-	color: #385623;				
-	margin-top:5pt;
-	margin-right:5pt;
-	margin-bottom:10pt;
-	margin-left:20pt;
-	font-size: 12pt;
-	line-height:110%;
-	font-family:"Calibri",sans-serif;
-	}
-	
-#recuo{
-	color: #385623;				
-	margin-top:5pt;
-	margin-right:5pt;
-	margin-bottom:10pt;
-	margin-left:20pt;
-	font-size: 12pt;
-	font-family:"Calibri",sans-serif;
-	}
-	
-.logo1{
-	color: #000000;				
-	margin-top:0pt;
-	margin-right:0pt;
-	margin-bottom:0pt;
-	margin-left:0pt;
-	font-size: 80.0pt;
-	font-family:"Gill Sans Nova",sans-serif;
-	}
-	
-.logo2{
-	color: #000000;				
-	margin-top:0pt;
-	margin-right:0pt;
-	margin-bottom:0pt;
-	margin-left:0pt;
-	font-size: 48.0pt;
-	font-family:"Gill Sans Nova",sans-serif;
-	}
-	
-.logo3{
-	color: #FF0000;				
-	margin-top:0pt;
-	margin-right:0pt;
-	margin-bottom:0pt;
-	margin-left:0pt;
-	font-size: 80.0pt;
-	font-family:"Gill Sans Nova",sans-serif;
-	}	
 
-.logo_link{
-	color: #FF0000;				
-	margin-top:0pt;
-	margin-right:0pt;
-	margin-bottom:0pt;
-	margin-left:0pt;
-	font-size: 20.0pt;
-	font-family:"Gill Sans Nova",sans-serif;
-	}
-			
+li {
+    color: #5B452B;
+    margin: 5pt 5pt 10pt 20pt;
+    font-size: 12pt;
+    line-height: 110%;
+    font-family: "Calibri", sans-serif;
+}
+
+#recuo {
+    color: #5B452B;
+    margin: 5pt 5pt 10pt 20pt;
+    font-size: 12pt;
+    font-family: "Calibri", sans-serif;
+}
+
+.logo1 {
+    color: #000000;
+    margin: 0;
+    font-size: 80pt;
+    font-family: "Gill Sans Nova", sans-serif;
+}
+
+.logo2 {
+    color: #000000;
+    margin: 0;
+    font-size: 48pt;
+    font-family: "Gill Sans Nova", sans-serif;
+}
+
+.logo3 {
+    color: #000000;
+    margin: 0;
+    font-size: 80pt;
+    font-family: "Gill Sans Nova", sans-serif;
+}
+
+.logo_link {
+    color: #000000;
+    margin: 0;
+    font-size: 20pt;
+    font-family: "Gill Sans Nova", sans-serif;
+}
