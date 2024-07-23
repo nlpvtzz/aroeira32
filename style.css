@@ -7,7 +7,7 @@ h1 {
 
 p {
     color: #5B452B;
-    margin: 15pt 5pt 20pt 20pt;
+    margin: 20pt 5pt 20pt 30pt;
     font-size: 12pt;
     line-height: 120%;
     font-family: "Calibri", sans-serif;
@@ -43,7 +43,7 @@ li {
 }
 
 .logo3 {
-    color: #000000;
+    color: #FF0000;
     margin: 0;
     font-size: 80pt;
     font-family: "Gill Sans Nova", sans-serif;
