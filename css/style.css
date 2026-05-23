@@ -1,4 +1,4 @@
-/* ---------- RESET E BASE ---------- */
+/* ---------- RESET ---------- */
 
 * {
     margin: 0;
@@ -6,12 +6,26 @@
     box-sizing: border-box;
 }
 
+/* ---------- PALETA BOUTIQUE ---------- */
+
+:root {
+    --fundo: #E8E1D9;
+    --texto: #4A3F35;
+    --dourado: #C2A878;
+    --link: #7A5C3E;
+    --link-hover: #5A422E;
+}
+
+/* ---------- BASE ---------- */
+
 body {
-    background-color: #C6B5A1;
-    font-family: "Calibri", sans-serif;
-    color: #5B452B;
-    padding: 20px;
-    line-height: 1.5;
+    background-color: var(--fundo);
+    font-family: "Cormorant Garamond", "Georgia", serif;
+    color: var(--texto);
+    padding: 30px 22px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: auto;
 }
 
 /* ---------- CABEÇALHO ---------- */
@@ -20,14 +34,15 @@ body {
     display: flex;
     align-items: center;
     gap: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     flex-wrap: wrap;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--dourado);
 }
 
 .logo-img {
-    width: 180px;
+    width: 160px;
     height: auto;
-    flex-shrink: 0;
 }
 
 .logo-text {
@@ -36,44 +51,50 @@ body {
     justify-content: center;
 }
 
+.logo1, .logo2, .logo3 {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+}
+
 .logo1 {
-    font-family: "Gill Sans Nova", sans-serif;
-    font-size: 80px;
-    color: #030709;
+    font-size: 70px;
+    color: var(--texto);
 }
 
 .logo2 {
-    font-family: "Gill Sans Nova", sans-serif;
-    font-size: 48px;
-    color: #030709;
+    font-size: 40px;
+    color: var(--texto);
 }
 
 .logo3 {
-    font-family: "Gill Sans Nova", sans-serif;
-    font-size: 80px;
-    color: #FF0000;
+    font-size: 70px;
+    color: #B03A2E;
 }
 
 .logo_link a {
-    font-family: "Gill Sans Nova", sans-serif;
-    font-size: 20px;
-    color: #000;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    color: var(--link);
     text-decoration: none;
-    word-break: break-all;
 }
 
-/* ---------- CONTEÚDO ---------- */
+/* ---------- TÍTULOS ---------- */
 
 h1 {
-    font-family: "Gill Sans Nova", sans-serif;
-    font-size: 28px;
-    margin-bottom: 15px;
-    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 34px;
+    margin: 40px 0 15px;
+    color: var(--texto);
+    letter-spacing: 0.5px;
+    border-left: 4px solid var(--dourado);
+    padding-left: 12px;
 }
+
+/* ---------- TEXTO ---------- */
 
 p {
     font-size: 20px;
-    margin: 15px 0;
+    margin: 18px 0;
 }
 
 ul {
@@ -83,19 +104,31 @@ ul {
 
 li {
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
-#recuo {
-    margin-left: 10px;
+/* ---------- LINKS ---------- */
+
+a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: var(--link-hover);
+    border-bottom: 1px solid var(--link-hover);
 }
 
 /* ---------- RODAPÉ ---------- */
 
 footer {
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 20px;
     text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid var(--dourado);
 }
 
 /* ---------- RESPONSIVIDADE ---------- */
@@ -103,7 +136,7 @@ footer {
 @media (max-width: 600px) {
 
     body {
-        padding: 15px;
+        padding: 20px;
     }
 
     .header {
@@ -112,22 +145,18 @@ footer {
     }
 
     .logo-img {
-        width: 140px;
+        width: 130px;
     }
 
     .logo1 { font-size: 55px; }
-    .logo2 { font-size: 32px; }
+    .logo2 { font-size: 30px; }
     .logo3 { font-size: 55px; }
 
     h1 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     p, li {
         font-size: 18px;
-    }
-
-    ul {
-        margin-left: 20px;
     }
 }
