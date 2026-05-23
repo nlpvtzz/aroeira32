@@ -1,14 +1,14 @@
 h1 {
     color: #5B452B;
     margin: 15pt 5pt 10pt 5pt;
-    font-size: 14pt;
+    font-size: 18pt;
     font-family: "Gill Sans Nova", sans-serif;
 }
 
 p {
     color: #5B452B;
     margin: 20pt 5pt 20pt 30pt;
-    font-size: 12pt;
+    font-size: 16pt;
     line-height: 120%;
     font-family: "Calibri", sans-serif;
 }
@@ -16,7 +16,7 @@ p {
 li {
     color: #5B452B;
     margin: 5pt 5pt 10pt 20pt;
-    font-size: 12pt;
+    font-size: 16pt;
     line-height: 110%;
     font-family: "Calibri", sans-serif;
 }
