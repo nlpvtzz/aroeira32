@@ -1,351 +1,137 @@
-<!DOCTYPE html>
-<html>
+/* ---------- RESET E BASE ---------- */
 
-<head>
-    <meta http-equiv=Content-Type content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="aroeira32_favicon.png" />
-    <title>Aroeira32</title>
-</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<body bgcolor="#C6B5A1" lang=PT-BR link="#0563C1" vlink="#954F72">
-    <table cellpadding=0 cellspacing=0 align=left>
-        <tr>
-            <td>
-                <a style="text-decoration:none" href="https://www.instagram.com/aroeira32/">
-                    <img width=239 height=259 src="aroeira32_arvore.png" align=left hspace=12 />
-                </a>
-            </td>
-            <td>
-                <a style="text-decoration:none" href="https://www.instagram.com/aroeira32/">
-                    <span class="logo1">A</span>
-                    <span class="logo2">roeira</span>
-                    <span class="logo3">32</span>
-                </a>
-                <br />
-                <span class="logo_link">
-                    <a href="https://www.instagram.com/aroeira32/">https://www.instagram.com/aroeira32/</a>
-                </span>
-            </td>
-        </tr>
-    </table>
-    <br clear="ALL" />
+body {
+    background-color: #C6B5A1;
+    font-family: "Calibri", sans-serif;
+    color: #5B452B;
+    padding: 20px;
+    line-height: 1.55;
+}
 
-    <h1>Guia Turístico de Campos do Jordão</h1>
-    <ul>
-        <li>
-            <a href="https://www.guiacampos.com/de-labirinto-gigante-a-picnic-cervejeiro-5-experiencias-para-fazer-com-sua-mae-em-campos-do-jordao/">
-                Cinco experiências incríveis para fazer em Campos do Jordão, de labirinto gigante a picnic cervejeiro
-            </a>
-        </li>
-        <li>
-            <a href="https://www.guiacampos.com/o-que-fazer-em-campos-do-jordao-a-noite-5-dicas-e-mais-uma-extra/">O que fazer em Campos do Jordão à noite</a>
-        </li>
-        <li>
-            <a href="https://www.guiacampos.com/">Guia completo de Campos de Jordão pode ser encontrado aqui</a>
-        </li>
-    </ul>
-    <p>
-        <b>Abaixo selecionamos algumas lugares que adoramos em Campos do Jordão</b>
-    </p>
-    <h1>Capivari</h1>
-    <p>
-        É centro turístico de Campos do Jordão. Possui muitas lojas, restaurantes e vida noturna agitada.
-        Ótimo lugar para ver e ser visto. Em feriados prolongados, o trânsito é intenso. O Aroeira32 está a
-        apenas 2,5 km do Capivari, cerca de 5 minutos de carro ou 30 de caminhada.
-        <a href="https://maps.app.goo.gl/gabMzSEdamMxSonN9">Clique aqui para saber como chegar</a>
-    </p>
+/* ---------- CABEÇALHO ---------- */
 
-    <h1>Restaurantes</h1>
-    <p>
-        Talvez esta seja a melhor parte de Campos do Jordão. São muitos os restaurantes bons, de
-        todos os tipos e para todos os bolsos, desde os mais simples com comida caseira até os de alta
-        gastronomia. Nos finais de semana do inverno, é aconselhável fazer reserva. Abaixo selecionamos
-        alguns que costumamos frequentar.
-    </p>
+.header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
 
-    <h1>Restaurantes e Bares no Capivari</h1>
-    <p>
-        <b> Vila Chã: </b>
-        uma casa portuguesa, com certeza! Possui uma cozinha maravilhosa e uma
-        excelente carta de vinhos.
-        <a href="https://www.vilacha.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Restaurante Libertango: </b>
-        especializado em carnes, este restaurante argentino com culinária
-        tradicional é uma das melhores opções para degustar uma parrilla.
-        <a href="https://libertango.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>La Gália: </b>
-        possui ambiente acolhedor e aconchegante com carnes
-        exóticas e cardápio variado.
-        <a href="http://www.lagalia.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Ristorante Festival della Pasta: </b>
-        especializado em comida italiana. Possui no cardápio a possibilidade de degustação de cinco tipos
-        diferentes de massas e com trio de sobremesa.
-        <a href="https://www.festivaldellapasta.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Choperia Baden Baden: </b>
-        ótimo local para um tira-gosto sem compromisso durante o dia.
-        Experimente as famosas salsichas alemãs (ou joelho de porco) e observe as pessoas indo e vindo.
-        <a href="https://www.instagram.com/badenbadenchoperia/">Clique aqui para acessar o Instagram</a>.
-    </p>
-    <p>
-        <b>Esquina do Djalma: </b>
-        oferece um ambiente animado e descontraído, ótimo para quem aprecia música ao vivo e gastronomia variada
-        que vai desde sanduíches e tira-gostos até refeições completas.
-        <a href="https://esquinadodjalma.com.br/">Clique aqui para acessar o site</a>.
-    </p>
+.logo-img {
+    width: 180px;
+    height: auto;
+    flex-shrink: 0;
+}
 
-    <h1>Restaurantes Além do Capivari</h1>
-    <p>Para quem quer fugir do movimentado Capivari, há ótimas opções (algumas até melhores).</p>
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    <p>
-        <b>Harry Pisek: </b>
-        Considerado um dos melhores restaurantes alemães no Brasil, fica bem próximo do Aroeira32.
-        <a href="https://www.restauranteharrypisek.com.br/">Clique aqui para acessar o site.</a>
-    </p>
+.logo1 {
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 80px;
+    color: #030709;
+}
 
-    <p>
-        <b>2858 Avenue Bistrô: </b>
-        cozinha moderna em um ambiente descontraído e tranquilo.
-        <a href="https://www.instagram.com/2858avenuebistro/?utm_medium=copy_link">Clique aqui para acessar o Instagram.</a>
-    </p>
-    <p>
-        <b>Arte da Pizza: </b>
-        localizado no Grande Hotel de Campos do Jordão esta pizzaria possui mesas
-        próximas aos fornos à lenha. O cardápio é bastante original.
-        <a href="https://grandehotelsenac.com.br/ghj_gastronomia/arte-da-pizza/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Café Terraço Restaurante e Pizzaria: </b>
-        localizado fora da cidade às margens de um lago esta é uma das melhores pizzarias de Campos do Jordão.
-        <a href="https://www.instagram.com/cafeterracocamposdojordao/">Clique aqui para acessar o Instagram</a>.
-    </p>
-    <p>
-        <b>Restaurante Dona Chica: </b>
-        localizado no Horto Florestal, você terá a chance de contemplar a
-        exuberante natureza do local degustando pratos típicos da culinária regional.
-        <a href="https://www.restaurantedonachica.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Bonanza Grill: </b>
-        localizado a uma altitude de 1.633m, um dos pontos mais altos da Serra,
-        a vista panorâmica do Bonanza Grill é um atrativo à parte. Vale a pena um drink durante o pôr do sol.
-        <a href="https://www.bonanzagrill.com.br/">Clique aqui para acessar o site</a>.
-    </p>
+.logo2 {
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 48px;
+    color: #030709;
+}
 
-    <h1>Restaurantes de Alta Gastronomia</h1>
-    <p>
-        <b>Vila Chã: </b>
-        uma casa portuguesa, com certeza! Possui uma cozinha maravilhosa e uma
-        excelente carta de vinhos. Localizado no Capivari.
-        <a href="https://www.vilacha.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Libertango: </b>
-        especializado em carnes, este restaurante argentino com culinária
-        tradicional é uma das melhores opções para degustar uma parrilla. Localizado no Capivari.
-        <a href="https://libertango.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Pontremoli: </b>
-        é um pequeno bistrô italiano com decoração aconchegante e mesas à
-        beira da lareira e iluminadas a luz de velas. Atendimento somente com reserva.
-        <a href="https://restaurantepontremoli.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>L'Osteria Villa Casato: </b>
-        considerado um dos melhores restaurantes românticos do mundo.
-        A cozinha é baseada na culinária Italiana contemporânea.
-        <a href="https://losteriavillacasato.com.br/">Clique aqui para acesssar o site</a>.
-    </p>
-    <p>
-        <b>Casa Bambuí: </b>
-        este restaurante fica dentro de um lindo parque que possui até passeio de Maria Fumaça. O cardápio varia conforme
-        as estações e inclui pratos como o "Andando nos trilhos", com queijo, cogumelos e truta defumada, além de massas,
-        risotos e um sofisticado menu degustação. Vá com tempo.
-        <a href="https://www.instagram.com/casa.bambui/">Clique aqui para acesssar o Instagram</a>.
-    </p>
-    <p>
-        <b>Restaurante Entre Vilas: </b>
-        localizado a 24 km do Aroeira32 no meio da mata este restaurante
-        rústico possui uma das melhores cozinhas de Campos do Jordão. O cardápio é servido em seis
-        etapas com o conceito de slow food. É possível passear pela vinícola e pelas plantações de árvores
-        frutíferas do local. <a href="https://www.entrevilas.com.br/">Clique aqui para acessar o site</a>.
-    </p>
+.logo3 {
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 80px;
+    color: #FF0000;
+}
 
-    <h1>Restaurante Vegetariano</h1>
-    <p>
-        <b>Alquimia: </b>
-        este restaurante que possui cardápio vegetariano e vegano é considerado um dos melhores do Brasil.
-        <a href="https://restaurantealquimia.com.br/">Clique aqui para acessar site</a>.
-    </p>
+.logo_link a {
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    word-break: break-all;
+}
 
-    <h1>Cervejarias</h1>
-    <p>
-        <b>Cervejaria Baden Baden: </b>
-        uma das cervejarias artesanais mais famosas do país. Possui visita guiada com degustação,
-        que dura aproximadamente uma hora. É necessário comprar ingressos com antecedência pelo site.
-        <a href="https://www.badenbaden.com.br/tour-informacoes-gerais/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Cervejaria Luss: </b>
-        aos antigos donos da Baden Baden inauguram uma nova marca. Localizada no Bosque do Silêncio.
-        <a href="https://www.instagram.com/lusscervejaria/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Caras de Malte: </b>
-        é um restaurante e microcervejaria localizada apenas a 1,7 km do Aroeira32.
-        É uma ótima opção caso queira fugir do burburinho do Capivari.
-        <a href="https://www.carasdemalte.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Parque da Cerveja: </b>
-        durante a visita guiada é apresentada cada etapa do processo de produção, proporcionando
-        experiências sensoriais e degustações exclusivas. Há um mirante com uma vista incrível do vale.
-        <a href="https://cervejacamposdojordao.com.br/parque/">Clique aqui para acessar o site</a>.
-    </p>
+/* ---------- TÍTULOS ---------- */
 
-    <h1>Vinícula</h1>
-    <p>
-        <b>Santa Maria: </b>
-        localizada entre Campos do Jordão e São Bento do Sapucaí, possui visitas guiadas e restaurante.
-        <a href="https://villasantamaria.com.br/">Clique aqui para acessar o site.</a>
-    </p>
+h1 {
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 28px;
+    margin: 30px 0 15px;
+    text-align: left;
+    color: #5B452B;
+}
 
-    <h1>Fábricas de Chocolate</h1>
-    <p>Campos do Jordão possui várias fábricas de chocolate. Destacamos algumas:</p>
-    <p>
-        <b>Fábrica de chocolate Araucária: </b>
-        é uma renomada fábrica de chocolates artesanais, conhecida por seus produtos de alta qualidade
-        feitos com cacau premium. A fábrica oferece visitas guiadas onde os visitantes podem ver o
-        processo de fabricação e degustar diversos tipos de chocolates.
-        <a href="http://www.chocolatearaucaria.com.br/site/home/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Cacau Show: </b>
-        cadeia brasileira de chocolatarias com bomboniere, cafés seletos e doces
-        finos em mesinhas, balcão ou embalados. Endereço: Av. Frei Orestes Girardi, 3527 - Jardim Atalaia.
-    </p>
-    <p>
-        <b>Chocolate Spinassi: </b>
-        de fácil acesso, pois está localizada entre o Capivari e o Aroeira32.
-        <a href="https://www.spinassichocolate.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Chocolate Montanhês: </b>
-        possui uma loja no Capivari.
-        <a href="https://chocolatemontanhes.com.br/">Clique aqui para acessar o site</a>.
-    </p>
+/* ---------- TEXTO ---------- */
 
-    <h1>Passeios Culturais</h1>
-    <p>
-        <b>Mosteiro São João: </b>
-        localizado em uma linda propriedade, este mosteiro pertence à ordem beneditina, conhecida pela vida
-        monástica centrada na oração, leitura espiritual e trabalho comunitário.
-        A missa ou vésperas com canto gregoriano acontecem quase todos os dias.
-        <a href="http://mosteirosaojoao.org.br/">Clique aqui para acessar o site e os horários</a>.
-    </p>
-    </p>
-    <p>
-        <b>Palácio Boa Vista: </b>
-        é a residência oficial de inverno do governador do Estado de São Paulo. O palácio contém uma rica coleção
-        de obras de arte, móveis e objetos históricos. Passeio imperdível com visita guiada e entrada gratuita.
-        <a href="https://www.saopaulo.sp.gov.br/palacioboavista/#/home">Clique aqui para acessar o site</a>
-    </p>
-    <p>
-        <b>Museu Felícia Leirner e Auditório Claudio Santoro: </b>
-        localizados em uma área de mata com 35 mil m², o museu reúne um conjunto de obras da artista Felícia Leirner,
-        distribuídas ao ar livre, no jardim do espaço que divide com o Auditório Claudio Santoro. O auditório é uma obra-prima da arquitetura e um
-        espaço cultural privilegiado. Ele é a sede do Festival Internacional de Inverno de Campos do Jordão.
-        <a href="https://www.museufelicialeirner.org.br/">Clique aqui para acessar a programação</a>.
-    </p>
-    <p>
-        <b>Dica:</b> o museu e o auditório ficam próximos ao palácio.
-    </p>
+p {
+    font-size: 20px;
+    margin: 15px 0;
+}
 
-    <h1>Para as crianças de todas as idades</h1>
-    <p>
-        <b>Teleférico: </b>
-        está instalado a uma altitude de 1.800 metros no morro do Elefante.
-        A viagem dura três minutos. A vista é uma das mais lindas da cidade.
-        <a href="https://parquecapivari.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Maria Fumaça: </b>
-        o trajeto vai da Estação Emílio Ribas no Capivari até a Vila Abernéssia, percorrendo aproximadamente 4 km.
-        <a href="https://www.emcamposdojordao.com.br/pontos-turisticos/passeio-de-maria-fumaca-estrada-de-ferro-campos-do-jordao">
-            Clique aqui para acessar o site
-        </a>.
-    </p>
-    <p>
-        <b>Casa do Papai Noel na Montanha: </b>
-        casa decorada, quarto, sala, cozinha, banheiro do duende, banheiro do Papai Noel, escritório do Papai Noel e mini Polo Norte.
-        Entretanto, não tem a presença do Papai Noel somente a visitação na casa.
-        <a href="https://www.papainoelnamontanha.com.br">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Parque Tarundu: </b>
-        especializado em esporte de aventura com várias modalidades.
-        <a href="https://tarundu.com.br/">Clique aqui para acessar o site</a>.
-    </p>
+ul {
+    margin-left: 25px;
+    margin-top: 10px;
+}
 
-    <h1>Parques</h1>
-    <p>
-        <b>Parque Amantikir: </b>
-        possui mais de 700 espécies de plantas ao longo dos 60.000 m². Está aberto à visitação durante todos os dias do ano.
-        <a href="https://parqueamantikir.com.br/conheca/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Horto Florestal: </b>
-        com natureza exuberante, é também rico em história, cultura, gastronomia e pode-se praticar diversas atividades
-        de ecoturismo.
-        <a href="https://ingressos.parquecamposdojordao.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Parque Bambuí: </b>
-        É um espaço de lazer que oferece uma experiência imersiva na natureza, com muita área verde, trilhas cercadas
-        por árvores centenárias, lagos, passeios de Maria Fumaça e atividades ao ar livre como caminhada e ciclismo.
-        O parque também conta com o restaurante Casa Bambuí e uma microcervejaria artesanal.
-        <a href="https://parquebambui.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Parque Tarundu: </b>
-        especializado em esporte de aventura com várias modalidades.
-        <a href="https://tarundu.com.br/">Clique aqui para acessar o site</a>.
-    </p>
-    <p>
-        <b>Bosque do Silêncio: </b>
-        com mais de 100.000 	m² e beleza exuberante que convida à contemplação e à quietude interior. Possui arborismo de quase 2 km de extensão, café e cervejarias.
-        <a href="http://bosquedosilencio.com.br/">Clique aqui para acessar o site</a>.
-    </p>
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
-    <h1>Supermercados</h1>
-    <p>
-        <b>Supercampos: </b>
-        é o mais próximo do Aroeira32. Localizado na Av. Emílio Lang Júnior, 1245.
-    </p>
-    <p>
-        <b>Pão de Açucar: </b>
-        fica na Av. Dr. Januário Miraglia, 1772, bairro Abernéssia.
-    </p>
-    <p>
-        <b>Roma: </b>
-        Av. Dr. Januário Miraglia, 2784.
-    </p>
+a {
+    color: #0563C1;
+}
 
+/* ---------- RODAPÉ ---------- */
 
-    <h1>Lenha</h1>
-    <p>
-        <b>Casa da Madeira: </b>
-        entregam no condomínio. Whatsapp (12) 99600-1960. Instagram <a href="https://www.instagram.com/casadamadeiracampos/"> clique aqui</a>.
-    </p>
+footer {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
 
-</body>
-</html>
+/* ---------- RESPONSIVIDADE ---------- */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-img {
+        width: 140px;
+    }
+
+    .logo1 { font-size: 55px; }
+    .logo2 { font-size: 32px; }
+    .logo3 { font-size: 55px; }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    p, li {
+        font-size: 18px;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+}
